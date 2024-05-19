@@ -13,7 +13,7 @@
 安装ollama后，可以通过pull 和 run 命令分别下载和启动大模型服务，启动后ollama提供一个repl的环境让我们直接与大模型交互。
 
 要与Obsidian打通，我们需要用到serve命令起一个http服务器，然后在Obsidian的Smart Connections配置中配置：
-![[Pasted image 20240519220530.png]]
+![[./assets/Pasted image 20240519220530.png]]
 
 
 进行上述配置后，如果与大模型服务的连接依旧没通，可以打开控制台，如果是请求CORS问题，在启动serve命令时，需要设置OLLAMA_ORIGINS环境变量以告诉ollama server合法的调用源：
