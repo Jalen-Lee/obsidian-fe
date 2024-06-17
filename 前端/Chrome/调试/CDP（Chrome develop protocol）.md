@@ -8,6 +8,8 @@
 - [# 如何下载devtools-frontend源码并在本地部署](https://www.jianshu.com/p/31de17699814)
 - [Chromium DevTools Docs](https://chromium.googlesource.com/devtools/devtools-frontend/+/refs/heads/main/docs/README.md)
 - **[devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend)**
+- [# [DevTools 实现原理与性能分析实战](https://www.cnblogs.com/vivotech/p/15735242.html "发布于 2021-12-27 10:21")](https://www.cnblogs.com/vivotech/p/15735242.html)
+- [揭秘浏览器远程调试技术](https://fed.taobao.org/blog/taofed/do71ct/chrome-remote-debugging-technics/)
 
 ## 扩展实现
 1. [https://github.com/wanwu/devtools-pro?tab=readme-ov-file](https://github.com/wanwu/devtools-pro/blob/main/docs/advanced.md)
