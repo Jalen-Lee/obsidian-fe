@@ -1,3 +1,4 @@
+> 环境：Node v14.18.0
 ## 介绍
 
 基于CDP协议（Chrome DevTools Protocol），通过开发拥有CDP服务端能力的Egg插件，实现Egg应用与Chrome Devtool客户端之间的双向通信，目的是在Chrome Devtool客户端上监测插件收集的应用运行时数据（日志、网络I/O、系统I/O等），类似于Node V8 inspector。
@@ -11,3 +12,10 @@
 
 ## 特性
 1. 利用Devtool的Sources面板，直观查看服务器中应用的部署代码，
+
+
+## 依赖包
+
+- "fast-glob": "^3.3.2"
+- "sdk-base": "^4.2.1"
+- "cluster-client": "^3.7.0"
