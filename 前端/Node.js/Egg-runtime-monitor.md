@@ -19,3 +19,6 @@
 - "fast-glob": "^3.3.2"
 - "sdk-base": "^4.2.1"
 - "cluster-client": "^3.7.0"
+## QA
+### tsc编译时node_module中相关库报错：
+tsconfig中设置："skipLibCheck": true
