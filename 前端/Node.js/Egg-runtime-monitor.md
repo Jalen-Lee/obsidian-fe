@@ -22,3 +22,6 @@
 ## QA
 ### tsc编译时node_module中相关库报错：
 tsconfig中设置："skipLibCheck": true
+
+
+"build": "easy build --devtool source-map",
