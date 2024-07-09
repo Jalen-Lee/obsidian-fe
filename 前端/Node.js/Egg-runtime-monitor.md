@@ -30,4 +30,5 @@ tsconfig中设置："skipLibCheck": true
 
 ### sourceMap
 - [sourceMap协议详情](https://sourcemaps.info/spec.html#h.lmz475t4mvbx)
-- 
+- [stack-trace](https://www.npmjs.com/package/stack-trace)
+- [egg-onerror](https://github.com/eggjs/egg-onerror/blob/master/lib/error_view.js)
