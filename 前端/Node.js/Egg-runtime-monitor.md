@@ -33,4 +33,5 @@ tsconfig中设置："skipLibCheck": true
 - [stack-trace](https://www.npmjs.com/package/stack-trace)
 - [egg-onerror](https://github.com/eggjs/egg-onerror/blob/master/lib/error_view.js)
 - https://zhaomenghuan.js.org/blog/chrome-devtools.html#electron-%E9%9B%86%E6%88%90-devtools
+- [V8堆栈跟踪api](https://v8.dev/docs/stack-trace-api)
 - 
