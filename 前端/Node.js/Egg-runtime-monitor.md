@@ -32,3 +32,5 @@ tsconfig中设置："skipLibCheck": true
 - [sourceMap协议详情](https://sourcemaps.info/spec.html#h.lmz475t4mvbx)
 - [stack-trace](https://www.npmjs.com/package/stack-trace)
 - [egg-onerror](https://github.com/eggjs/egg-onerror/blob/master/lib/error_view.js)
+- https://zhaomenghuan.js.org/blog/chrome-devtools.html#electron-%E9%9B%86%E6%88%90-devtools
+- 
