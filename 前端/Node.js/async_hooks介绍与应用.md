@@ -1,0 +1,1 @@
+由于 Node.js 应用中遍地都是异步操作，并且 Node.js 的异步操作在 EventLoop 主线程与 Worker 线程中穿插执行，因此想要对整个调用链（比如一个 HTTP 请求从接收到响应的整个过程）进行追踪、故障快速定位等操作将变得异常繁琐，为此 Node.js 提供了 `async_hooks` 模块来实现对异步操作的追踪；本文将通过异步资源（AsyncResource）、 异步钩子（AsyncHooks）、AsyncLocalStorage 三个方面来为大家详细介绍 `async_hooks` 模块的使用。
