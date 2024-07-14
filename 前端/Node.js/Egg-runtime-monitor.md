@@ -11,6 +11,8 @@ OMS接入插件后，可以便捷进行以下Node端调试。
 ### 错误堆栈还原
 ### 部署环境代码快速预览
 
+![部署环境代码快速预览](https://res.jscssfunny.com/fe/appcreator/asset/material/1720970985299-erm-1.png?x-oss-process=style/hq)
+
 
 
 
