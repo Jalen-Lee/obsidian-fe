@@ -9,9 +9,12 @@ OMS接入插件后，可以便捷进行以下Node端调试。
 
 ### Sequelize操作监测
 ### 错误堆栈还原
+
 ### 部署环境代码快速预览
 
-![部署环境代码快速预览](https://res.jscssfunny.com/fe/appcreator/asset/material/1720970985299-erm-1.png?x-oss-process=style/hq)
+应用部署后，某些情况我们需要检查部署环境中的产物代码（构建中涉及条件编译的部分是否正确、部署后功能不生效/不存在时验证某些功能代码是否正确更新等等），此时可以切换到“Sources”面板进行产物代码的快速预览。插件会扫描并整理应用部署根目录下的文件结构，并在Devtool需要时再返回相应内容。
+
+![部署环境代码快速预览](https://res.jscssfunny.com/fe/appcreator/asset/material/1720971366160-erm-1.png?x-oss-process=style/hq)
 
 
 
