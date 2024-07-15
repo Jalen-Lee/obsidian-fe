@@ -54,4 +54,4 @@ tsconfig中设置："skipLibCheck": true
 - [egg-onerror](https://github.com/eggjs/egg-onerror/blob/master/lib/error_view.js)
 - https://zhaomenghuan.js.org/blog/chrome-devtools.html#electron-%E9%9B%86%E6%88%90-devtools
 - [V8堆栈跟踪api](https://v8.dev/docs/stack-trace-api)
-- 
+- https://zhuanlan.zhihu.com/p/703285960?utm_medium=social&utm_psn=1789956778395582465&utm_source=wechat_session
