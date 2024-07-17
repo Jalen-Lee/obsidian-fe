@@ -39,6 +39,8 @@ OMS接入插件后，可以便捷进行以下Node端调试。
 - "fast-glob": "^3.3.2"
 - "sdk-base": "^4.2.1"
 - "cluster-client": "^3.7.0"
+- nanoid
+- egg-redis
 ## QA
 ### tsc编译时node_module中相关库报错：
 tsconfig中设置："skipLibCheck": true
@@ -55,3 +57,8 @@ tsconfig中设置："skipLibCheck": true
 - https://zhaomenghuan.js.org/blog/chrome-devtools.html#electron-%E9%9B%86%E6%88%90-devtools
 - [V8堆栈跟踪api](https://v8.dev/docs/stack-trace-api)
 - https://zhuanlan.zhihu.com/p/703285960?utm_medium=social&utm_psn=1789956778395582465&utm_source=wechat_session
+
+## redis
+
+### cdp客户端连接管理
+单节点和多节点部署下，所有cdp客户端在建立连接时都将其唯一id保存到redis的set中，set的有效期是1d。
